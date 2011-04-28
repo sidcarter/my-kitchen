@@ -4,13 +4,12 @@ body {
   color: default;
   margin: 50px; }
 
-table {
-  padding: 2px;
-  border: 2px ridge; }
+table, td, tr {
+  border: 1px solid;
+  border-spacing: 0px; }
 
 td {
-  padding: 5px;
-  border: 1px ridge; }
+  padding: 3px; }
 
 .field {
   font-size: 12px; }
