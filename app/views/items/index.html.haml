@@ -1,9 +1,15 @@
-%header
-	%h1 
-		Listing 
-		= pluralize(@items.count, "Items")
-	
-#items= render @items
+%section
+	%table
+		%tr
+			%td.head Name
+			%td.head Type
+		#items= render @items
+
+%br
+%p.total
+	Listing 
+	= pluralize(@items.count, "Items")
+
 
 %br
 %p 

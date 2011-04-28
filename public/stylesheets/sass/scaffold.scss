@@ -13,6 +13,29 @@ body {
 	margin: 50px;
 }
 
+table {
+	padding:2px;
+	border: 2px ridge;
+}
+
+td {
+	padding: 5px;
+	border: 1px ridge;
+}
+
+.field {
+	font-size: 12px;
+}
+
+.head {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.total {
+	color: red;
+}
+
 .subtitle{
 	color: white;
 }
@@ -29,7 +52,7 @@ a {
 	color: $linkcolor;
 }
 
-.field, p {
+p {
 	font-size: 12px;
 	margin: 0px 0px 3px 0px;
 }
