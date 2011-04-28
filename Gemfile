@@ -7,12 +7,13 @@ gem 'rails', '3.0.7'
 
 gem 'sqlite3'
 
-# my custom gems
+# gems required by my app
 gem 'haml'
 gem 'sass'
 gem 'haml-rails'
 gem 'rails3-generators'
 gem 'jquery-rails'
+gem 'bcrypt-ruby', :require => 'bcrypt'
 
 group :test do
 	gem 'shoulda'
