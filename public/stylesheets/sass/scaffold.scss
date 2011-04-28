@@ -1,0 +1,39 @@
+$sansfont: "Verdana";
+$bodybg: #103254;
+$articlebg: #bbccdd;
+$articlewidth: 500px;
+$textcolor: default;
+$linkcolor: default;
+
+body {
+	font-family: $sansfont;
+	background-color: $bodybg;
+	color: $textcolor;
+	
+	margin: 50px;
+}
+
+.subtitle{
+	color: white;
+}
+
+article{
+	background-color: $articlebg;
+	
+	width: $articlewidth;
+	padding: 20px;
+}
+
+a {
+	font-size: 12px;
+	color: $linkcolor;
+}
+
+.field, p {
+	font-size: 12px;
+	margin: 0px 0px 3px 0px;
+}
+
+.unavailable {
+	text-decoration: line-through;
+}

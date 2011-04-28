@@ -1,0 +1,2 @@
+%section
+	%p{:class => !item.available? && 'unavailable'}= link_to item.item_name, edit_item_path(item)

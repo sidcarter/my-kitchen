@@ -1,0 +1,20 @@
+%header
+	%h1 
+		Listing 
+		= pluralize(@items.count, "Items")
+	
+#items= render @items
+
+%br
+%p 
+	= form_for Item.new, :remote => true do |f|
+		= f.text_field :item_name, {:value => "Item Name"}
+		= f.select :item_type, @types, {:prompt => 'Select a Type'}
+		%span.field= f.label :available
+		= f.check_box :available, {:value => "Available"}
+		= f.submit "Add New Item"
+
+	
+%br
+%p.last_modified
+	= Item.order("updated_at desc").first.updated_at.strftime("Items Last modified on %e %B %Y at %I:%M %p")

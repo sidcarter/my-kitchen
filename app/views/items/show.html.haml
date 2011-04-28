@@ -1,0 +1,16 @@
+%p#notice= notice
+
+%section
+	%p
+		%b Item name:
+		= @item.item_name
+	%p
+		%b Item type:
+		= @item.item_type
+	%p
+		%b Available:
+		= @item.available
+
+= link_to 'Back to Edit', edit_item_path(@item)
+\|
+= link_to 'All Items', items_path

@@ -1,0 +1,10 @@
+%h1 Editing item
+
+%section
+
+	= render 'form'
+	
+	%br
+	= link_to 'Remove this Item', @item, :confirm => "Remove " + @item.item_name + "?", :method => :delete, :class => "delete"
+	\|
+	= link_to 'Kitchen Bench', root_url
