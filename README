@@ -1,0 +1,7 @@
+== Welcome to My Kitchen
+
+A small rails app I wrote to learn more about Rails 3 and also manage the groceries and items in my kitchen.
+
+Not much in here which you won't find in a default Rails 3 install.
+
+I do use jQuery, HAML in my Rails app. I love HAML.
