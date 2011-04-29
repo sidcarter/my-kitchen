@@ -5,6 +5,7 @@ body {
   margin: 50px; }
 
 table, td, tr {
+  border-collapse: collapse;
   border: 1px solid;
   border-spacing: 0px; }
 
